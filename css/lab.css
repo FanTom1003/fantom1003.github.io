@@ -149,13 +149,13 @@ aside {
     font-size: 0.9em;
 }
 
-#flecha_Izquierda {
+.flecha_Izquierda {
     position: absolute;
     top: 100px;
     left: -12px;
 }
 
-#img_perfil {
+.img_perfil {
     text-align: center;
 }
 
