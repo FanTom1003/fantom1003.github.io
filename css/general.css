@@ -1,103 +1,71 @@
 html,
-body {
-    margin: 0;
-    padding: 0;
+body,
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
-nav {
-    width: 100%;
-}
-
-ul {
-    align-items: center;
-    list-style: none;
-    margin: 0% 25%;
-}
-
-li {
-    margin: 1% 2%;
-    padding: 1% 2%;
-    display: inline-flex;
-    font-style: none;
-}
-
-a {
-    width: auto;
-    color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
-nav ul li:hover {
-    font-size: 150%;
-    background: rgba(245, 8, 8, 0.445);
-}
-
-header {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(87, 56, 56);
-}
-
-h1 {
-    text-align: center;
-    margin: 0% 15%;
-    font-size: 150%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: goldenrod;
-}
-
-section h2 {
-    color: rgb(54, 165, 199);
-}
-
-section p {
-    color: brown;
-}
-
-article h3 {
-    color: rgb(31, 177, 128);
-}
-
-article p {
-    color: blue;
-}
-
-img {
-    width: 100%;
+.logo {
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 200%;
 }
 
 main {
-    margin: 0% 15%;
+    background: rgba(0, 0, 0, 0.164);
 }
 
-table {
-    width: 100%;
-    border: 1px solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.navbar-nav li:hover {
+    background: rgba(0, 128, 0, 0.438);
 }
 
-th,
-td {
-    width: 25%;
-    border: 1px solid;
-    border-collapse: collapse
+.navbar-nav li:hover a {
+    color: rgb(125, 219, 122)!important;
 }
 
-th {
-    color: whitesmoke;
-    background: goldenrod;
+li.active {
+    background: rgba(0, 128, 0, 0.438);
 }
 
-td {
-    text-align: center;
+li.active a {
+    color: rgb(125, 219, 122)!important;
 }
 
 footer {
-    height: 150%;
-    background-color: lightcoral;
+    background: #424242;
 }
 
-footer p {
-    text-align: center;
-    width: 100%;
+.white {
+    color: white;
+}
+
+.escuela {
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.grey {
+    color: rgb(206, 206, 206);
+}
+
+h5.unc {
+    font-size: 300%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.grande {
+    font-size: 300%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.pequeño {
+    font-family: 'Architects Daughter', cursive;
+    color: #0e7cd6;
+}
+
+.separar {
+    margin-top: 2%;
+}
+
+.centrar {
+    margin: auto 0% !important;
 }

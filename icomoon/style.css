@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?b55hw9');
-  src:  url('fonts/icomoon.eot?b55hw9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?b55hw9') format('truetype'),
-    url('fonts/icomoon.woff?b55hw9') format('woff'),
-    url('fonts/icomoon.svg?b55hw9#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?gvdoap');
+  src:  url('fonts/icomoon.eot?gvdoap#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gvdoap') format('truetype'),
+    url('fonts/icomoon.woff?gvdoap') format('woff'),
+    url('fonts/icomoon.svg?gvdoap#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,15 +24,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-linkedin:before {
+  content: "\e904";
+  color: #0077b5;
+}
+.icon-youtube:before {
+  content: "\e902";
+  color: #f00;
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #3b5998;
+}
 .icon-home:before {
   content: "\e900";
-}
-.icon-pencil2:before {
-  content: "\e906";
 }
 .icon-address-book:before {
   content: "\e944";
 }
-.icon-libreoffice:before {
-  content: "\eae3";
+.icon-lab:before {
+  content: "\e9aa";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-info:before {
+  content: "\ea0c";
 }
